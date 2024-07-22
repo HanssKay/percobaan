@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wed Coffe</title>
+
+    <!--Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="back">
+      <img src="asset/Biji.png" />
+      <img src="asset/Biji.png" class="back2" />
+      <img src="asset/Biji.png" class="back3" />
+      <img src="asset/Biji.png" class="back4" />
+      <img src="asset/Biji.png" class="back5" />
+      <img src="asset/Biji.png" class="back6" />
+      <img src="asset/Biji.png" class="back7" />
+    </div>
+    <!-- NavbarStart -->
+    <nav class="navbar">
+      <div class="logo">
+        <img src="asset/wc.png" class="wed">
+        <a href="#" class="logo2"> WedCoffe </a>
+      </div>
+      <div class="menu">
+        <ul class="list">
+          <li class="home">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="dropdown">
+            <a href="menu.html">Menu</a>
+            <div class="dropdown-content">
+              <a href="#coffe">Coffe</a>
+              <a href="#dessert">Dessert</a>
+              <a href="#non">Non-Coffe</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#contact">Kontak</a>
+          </li>
+          <li class="dropdown">
+            <a href="#about">Tentang Kami</a>
+          </li>
+        </ul>
+      </div>
+      <div class="ekstra">
+        <div class="navigasi">
+          <a href="peta.html">
+            <img src="asset/navigasi.png" />
+            <h1>Temukan Kita</h1>
+          </a>
+        </div>
+        <div class="ham-men" id="hamburger-menu">
+          <a href="#">
+          <img src="asset/menu.png">
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- NavEnd -->
+
+    <!-- HeroS Start -->
+    <div id="home" class="hero-sec">
+      <div class="slide-show">
+        <div class="slide fade">
+          <div class="content">
+            <h1>Nikmati Keindahan <br />Rasa Secangkir <br />Kopimu</h1>
+            <div class="cta">
+              <a href="peta.html">Kunjungi Sekarang</a>
+              <img src="asset/Kanan.png" />
+            </div>
+            <div class="soscial">
+              <a href="">
+                <img src="sosial/tik-tok.png" class="tt" />
+              </a>
+              <a href="">
+                <img src="sosial/instagram2.png" class="ig" />
+              </a>
+            </div>
+          </div>
+          <div class="image">
+            <img src="asset/Heros2.jpg" />
+          </div>
+        </div>
+        <div class="slide fade">
+          <div class="content">
+            <h1>Nikmati Kelezatan <br />Manis dalam <br />Hidanganmu</h1>
+            <div class="cta">
+              <a href="peta.html">Kunjungi Sekarang</a>
+              <img src="asset/Kanan.png" />
+            </div>
+            <div class="soscial">
+              <a href="">
+                <img src="sosial/tik-tok.png" class="tt" />
+              </a>
+              <a href="">
+                <img src="sosial/instagram2.png" class="ig" />
+              </a>
+            </div>
+          </div>
+          <div class="image">
+            <img src="asset/Heros1.jpg" />
+          </div>
+        </div>
+        <div class="slide fade">
+          <div class="content">
+            <h1>
+              Nikmati Kesegaran<br />Minuman yang Mengalir<br />dalam Gelasmu
+            </h1>
+            <div class="cta">
+              <a href="peta.html">Kunjungi Sekarang</a>
+              <img src="asset/Kanan.png" />
+            </div>
+            <div class="soscial">
+              <a href="">
+                <img src="sosial/tik-tok.png" class="tt" />
+              </a>
+              <a href="">
+                <img src="sosial/instagram2.png" class="ig" />
+              </a>
+            </div>
+          </div>
+          <div class="image">
+            <img src="asset/drinks.jpg" />
+          </div>
+        </div>
+      </div>
+
+      <!-- buttonNextPrev -->
+      <button class="prev" onclick="plusSlide(-1)">&#10094;</button>
+      <button class="next" onclick="plusSlide(1)">&#10095;</button>
+    </div>
+    <!-- HeroS End -->
+
+    <!-- SubHer Start -->
+    <div class="kategori">
+      <div class="subkat">
+        <h1>Menu Kita</h1>
+        <hr />
+        <div class="menu2">
+          <div class="menu-kit"></div>
+          <div class="menu-list">
+            <img src="asset/Coffe.png" />
+            <h3>Coffe</h3>
+          </div>
+          <div class="menu-list">
+            <img src="asset/desert.png" class="des" />
+            <h3>Dessert</h3>
+          </div>
+          <div class="menu-list">
+            <img src="asset/NonC.png" class="nonC" />
+            <h3>Non-Coffe</h3>
+          </div>
+        </div>
+        <h1 id="coffe">Coffe</h1>
+        <hr />
+        <div class="menu-con">
+          <div class="menu-cof">
+            <a href="#">
+              <img src="asset/Espresso.png" class="cf" />
+              <h3>Espresso</h3>
+              <div class="deskrif">
+                <h2 class="destip">Kopi hitam murni</h2>
+                <h2 class="harga">Rp 30.000</h2>
+              </div>
+              <div class="overlay-men">
+                <a href="#" class="more-men">Selengkapnya</a>
+              </div>
+            </a>
+          </div>
+          <div class="menu-cof">
+            <a href="#">
+              <img src="asset/americano.png" class="ca" />
+              <h3>Americano</h3>
+              <div class="deskrif">
+                <h2 class="destip">Kopi hitam dengan<br />perpaduan gula</h2>
+                <h2 class="harga2">Rp 35.000</h2>
+              </div>
+              <div class="overlay-men">
+                <a href="#" class="more-men">Selengkapnya</a>
+              </div>
+            </a>
+          </div>
+          <div class="menu-cof">
+            <a href="#">
+              <img src="asset//Latte.png" class="cl" />
+              <h3>Latte</h3>
+              <div class="deskrif">
+                <h2 class="destip">
+                  Kopi dengan<br />
+                  perpaduan susu
+                </h2>
+                <h2 class="harga2">Rp 35.000</h2>
+              </div>
+              <div class="overlay-men">
+                <a href="#" class="more-men">Selengkapnya</a>
+              </div>
+            </a>
+          </div>
+          <div class="menu-cof">
+            <a href="#">
+              <img src="asset/LatteCr.png" class="cw" />
+              <h3>Latte with cream</h3>
+              <div class="deskrif">
+                <h2 class="destip">Kopi dengan perpaduan <br />cream & susu</h2>
+                <h2 class="harga3">Rp 40.000</h2>
+              </div>
+              <div class="overlay-men">
+                <a href="#" class="more-men">Selengkapnya</a>
+              </div>
+            </a>
+          </div>
+          <div class="menu-cof">
+            <a href="#">
+              <img src="asset/Machiato.png" class="cm" />
+              <h3>Caramel Machiato</h3>
+              <div class="deskrif">
+                <h2 class="destip">
+                  Kopi dengan perpaduan<br />
+                  cream & caramel
+                </h2>
+                <h2 class="harga3">Rp 40.000</h2>
+              </div>
+              <div class="overlay-men">
+                <a href="#" class="more-men">Selengkapnya</a>
+              </div>
+            </a>
+          </div>
+          <div class="menu-cof">
+            <a href="#">
+              <img src="asset/Frappe.png" class="cw" />
+              <h3>Frappe</h3>
+              <div class="deskrif">
+                <h2 class="destip">
+                  Kopi dengan perpaduan<br />
+                  gula & cream susu
+                </h2>
+                <h2 class="harga3">Rp 35.000</h2>
+              </div>
+              <div class="overlay-men">
+                <a href="#" class="more-men">Selengkapnya</a>
+              </div>
+            </a>
+          </div>
+        </div>
+        <h1 id="dessert">Dessert</h1>
+        <hr />
+        <div class="menu-con">
+          <div class="menu-des">
+            <a href="#">
+              <img src="asset/wafles.png" class="dw" />
+              <h3>Waffles</h3>
+              <div class="deskrif">
+                <h2 class="destip">
+                  Waffle dengan perpaduan<br />
+                  cream & coklat
+                </h2>
+                <h2 class="harga3">Rp 50.000</h2>
+              </div>
+              <div class="overlay-men">
+                <a href="#" class="more-men">Selengkapnya</a>
+              </div>
+            </a>
+          </div>
+          <div class="menu-des">
+            <a href="#">
+              <img src="asset/CakeMat.png" class="dt" />
+              <h3>Matcha Cupcake</h3>
+              <div class="deskrif">
+                <h2 class="destip">Kue dengan perpaduan<br />susu & matcha</h2>
+                <h2 class="harga3">Rp 45.000</h2>
+              </div>
+              <div class="overlay-men">
+                <a href="#" class="more-men">Selengkapnya</a>
+              </div>
+            </a>
+          </div>
+          <div class="menu-des">
+            <a href="#">
+              <img src="asset/Tiramisu.png" class="dt" />
+              <h3>Tiramisu Cup</h3>
+              <div class="deskrif">
+                <h2 class="destip">
+                  Kue tiramisu dengan<br />
+                  perpaduan susu
+                </h2>
+                <h2 class="harga4">Rp 45.000</h2>
+              </div>
+              <div class="overlay-men">
+                <a href="#" class="more-men">Selengkapnya</a>
+              </div>
+            </a>
+          </div>
+          <div class="menu-des">
+            <a href="#">
+              <img src="asset/Pancake.png" class="dp" />
+              <h3>Pancake</h3>
+              <div class="deskrif">
+                <h2 class="destip">
+                  Kue dengan perpaduan<br />
+                  madu & strawberry
+                </h2>
+                <h2 class="harga5">Rp 50.000</h2>
+              </div>
+              <div class="overlay-men">
+                <a href="#" class="more-men">Selengkapnya</a>
+              </div>
+            </a>
+          </div>
+          <div class="menu-des-cake">
+            <a href="#">
+              <img src="asset/CakeStrawberry.png" class="dt" />
+              <h3>Strawberry Cake</h3>
+              <div class="deskrif">
+                <h2 class="destip">Kue dengan perpaduan<br />susu & strawberry</h2>
+                <h2 class="harga5">Rp 45.000</h2>
+              </div>
+              <div class="overlay-men">
+                <a href="#" class="more-men">Selengkapnya</a>
+              </div>
+            </a>
+          </div>
+          <div class="menu-des">
+            <a href="#">
+              <img src="asset/Pudbraw.png" class="dp" />
+              <h3>Strawberry Pudding</h3>
+              <div class="deskrif">
+                <h2 class="destip">Pudding dengan rasa<br />rasa strawberry</h2>
+                <h2 class="harga3">Rp 40.000</h2>
+              </div>
+              <div class="overlay-men">
+                <a href="#" class="more-men">Selengkapnya</a>
+              </div>
+            </a>
+          </div>
+        </div>
+        <h1 id="non">Non-Coffe</h1>
+        <hr />
+        <div class="menu-con2">
+          <div class="menu-non">
+            <a href="#">
+              <img src="asset/Redval.png" class="nr" />
+              <h3>Red Velvet</h3>
+              <div class="deskrif">
+                <h2 class="destip">
+                  Es dengan perpaduan<br />
+                  redvelvet & cream
+                </h2>
+                <h2 class="harga5">Rp 40.000</h2>
+              </div>
+              <div class="overlay-men">
+                <a href="#" class="more-men">Selengkapnya</a>
+              </div>
+            </a>
+          </div>
+          <div class="menu-non">
+            <a href="#">
+              <img src="asset/Yamang.png" class="ny" />
+              <h3>Manggo Yakult</h3>
+              <div class="deskrif">
+                <h2 class="destip">Es mangga dengan<br />perpaduan yakult</h2>
+                <h2 class="harga6">Rp 40.000</h2>
+              </div>
+              <div class="overlay-men">
+                <a href="#" class="more-men">Selengkapnya</a>
+              </div>
+            </a>
+          </div>
+          <div class="menu-non">
+            <a href="#">
+              <img src="asset/banCo.png" class="nb" />
+              <h3>Banana Choco</h3>
+              <div class="deskrif">
+                <h2 class="destip">Es coklat dengan<br />perpaduan pisang</h2>
+                <h2 class="harga2">Rp 40.000</h2>
+              </div>
+              <div class="overlay-men">
+                <a href="#" class="more-men">Selengkapnya</a>
+              </div>
+            </a>
+          </div>
+        </div>
+        <h1>Kenapa pilih Kita?</h1>
+        <hr />
+        <div class="unggulan">
+          <div class="unggul">
+            <img src="asset/Coffe.png" />
+            <h5>Aroma Kopi yang <br />Sedap</h5>
+          </div>
+          <div class="unggul">
+            <img src="asset/Biji.png" />
+            <h5>Kualitas Biji Kopi <br />Terbaik</h5>
+          </div>
+          <div class="unggul-des">
+            <img src="asset/desert.png" class="des" />
+            <h5>Hidangan Penutup <br />yang Lezat</h5>
+          </div>
+          <div class="unggul-nonc">
+            <img src="asset/NonC.png" />
+            <h5>Kesegaran Minuman <br />yang Nikmat</h5>
+          </div>
+        </div>
+        <h1 id="about">Tentang Kami</h1>
+        <hr />
+        <div class="swap-ten">
+          <div class="con-ten">
+            <p>
+              WedCoffe sebuah perusahaan lokal <br />yang mengangkat tema kedai
+              kopi yang klasik <br />dan nyaman untuk para pengunjungnnya.<br />
+              Awal mula kami mendirikannya pada 1 Mei 2024,<br />
+              dengan tujuan kami memberikan layanan yang <br />terbaik dan juga
+              harga yang terjangkau<br />
+              untuk para pengunjung.
+            </p>
+          </div>
+          <div class="swap-con">
+            <div class="cof">
+              <img src="asset/Coffe.png" />
+            </div>
+            <div class="log-ten">
+              <img src="asset/desert.png" class="des" />
+              <img src="asset/NonC.png" class="non" />
+            </div>
+          </div>
+        </div>
+        <h1 id="contact">Kontak Kami</h1>
+        <hr />
+        <div class="swap-sos">
+          <div class="con-sos">
+            <img src="sosial/instagram2.png" />
+            <div class="overlay">
+              <a href="" class="more">Instagram.com</a>
+            </div>
+          </div>
+          <div class="con-sos">
+            <img src="sosial/tik-tok.png" />
+            <div class="overlay">
+              <a href="" class="more">Instagram.com</a>
+            </div>
+          </div>
+          <div class="con-sos">
+            <img src="sosial/mail.png" />
+            <div class="overlay">
+              <a href="" class="more">Instagram.com</a>
+            </div>
+          </div>
+          <div class="con-sos">
+            <img src="sosial/whatsapp2.png" />
+            <div class="overlay">
+              <a href="" class="more">Instagram.com</a>
+            </div>
+          </div>
+          <div class="con-sos">
+            <img src="sosial/facebook.png" />
+            <div class="overlay">
+              <a href="" class="more">Instagram.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SubHer end -->
+    <!--FootStart -->
+    <footer>
+      <div class="foot-wrap">
+        <div class="foot-logo">
+          <h3>WedCoffe</h3>
+        </div>
+        <div class="foot-sos">
+          <h3>Ikuti dan Kontak kami</h3>
+          <div class="sos-wrap">
+            <a href>
+              <img src="sosial/tik-tok.png" />
+            </a>
+            <a href="">
+              <img src="sosial/instagram2.png" />
+            </a>
+            <a href="">
+              <img src="sosial/mail.png" />
+            </a>
+            <a href="">
+              <img src="sosial/whatsapp2.png" />
+            </a>
+            <a href="">
+              <img src="sosial/facebook.png" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="foot-con">
+        <div class="wed-des">
+          <h3>WedCoffe</h3>
+          <p>
+            Kedai kopi dengan kualitas biji kopi <br />pilihan terbaik yang bisa
+            memanjakan <br />lidah dan jiwa. Suasana yang nyaman <br />untuk
+            bertukar cerita dengan kerabat.
+          </p>
+        </div>
+        <div class="con-jad">
+          <h3>Jam Buka WedCoffe</h3>
+          <p>Senin - Kamis :<span> 08.00 - 23.00</span></p>
+          <p>Jumat - Sabtu :<span> 08.00 - 03.00</span></p>
+          <p>Minggu :<span> Tutup</span></p>
+        </div>
+        <div class="foot-ser">
+          <h3>Sertifikasi</h3>
+          <img src="asset/Halal.png" />
+        </div>
+      </div>
+      <div class="kredit">
+        <p>
+          Created by <a href="https://www.instagram.com/mfrhan_a/">HansKay</a> |
+          &copy; 2024
+        </p>
+      </div>
+    </footer>
+    <!-- FootEnd -->
+    <script src="script.js"></script>
+  </body>
+</html>
